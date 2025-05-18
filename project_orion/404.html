@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORION SECURITY - Access Denied</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0a0a0a;
+            color: #0f0;
+            text-align: center;
+            padding: 50px;
+            line-height: 1.6;
+        }
+        .system-msg {
+            color: #0a0a0a;
+            user-select: none;
+            font-size: 0.8em;
+            margin: 20px 0;
+        }
+        .terminal {
+            background: #000;
+            border: 1px solid #0f0;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>SECURITY ALERT: ACCESS RESTRICTED</h1>
+    <div class="terminal">
+        <p>> ERROR 404: Requested resource not found in Orion database</p>
+        <p>> Checking system logs...</p>
+        <p>> Last known access: [REDACTED]</p>
+    </div>
+    
+    <!-- System diagnostics (view source to investigate) -->
+    <div class="system-msg">
+        <p>SEGMENT_4: y0ur_br0ws3r_devt00ls_</p>
+        <p>Diagnostic: Check response headers for system status</p>
+    </div>
+
+    <script>
+        // System diagnostic script
+        (function() {
+            const systemCheck = [
+                83, 121, 115, 116, 101, 109, 32, 115, 116, 97, 116, 117, 115, 58, 
+                32, 78, 111, 109, 105, 110, 97, 108, 32, 40, 99, 104, 101, 99, 107, 
+                32, 99, 111, 110, 115, 111, 108, 101, 32, 102, 111, 114, 32, 100, 101, 
+                116, 97, 105, 108, 115, 41
+            ];
+            const status = systemCheck.map(c => String.fromCharCode(c)).join('');
+            console.log(status);
+        })();
+    </script>
+</body>
+</html>

@@ -1,8 +1,0 @@
-You've found the secret stash!
-
-But wait... the real treasure is in the commit message of the first commit in this repository.
-
-Look for the tag: #CTF_TREASURE
-
-<!-- This is a decoy -->
-FLAG_PART_3: th3_next_clue_is_in_

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Not Found</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0a0a0a;
+            color: #0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        .hidden {
+            color: #0a0a0a;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>404 - Page Not Found</h1>
+    <p>The page you're looking for doesn't exist... or does it?</p>
+    
+    <!-- View source for a surprise -->
+    <div class="hidden">
+        <p>FLAG_PART_4: y0ur_br0ws3r_devt00ls_</p>
+        <p>Next clue: Check the response headers of this page</p>
+    </div>
+
+    <script>
+        // Nothing to see here... or is there?
+        const secret = [84, 104, 101, 32, 110, 101, 120, 116, 32, 112, 97, 114, 116, 32, 105, 115, 32, 105, 110, 32, 116, 104, 101, 32, 99, 111, 110, 115, 111, 108, 101];
+        console.log('Secret:', String.fromCharCode(...secret));
+    </script>
+</body>
+</html>

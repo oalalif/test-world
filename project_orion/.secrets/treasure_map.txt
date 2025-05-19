@@ -1,10 +1,11 @@
-ORION SECURE ARCHIVE - ACCESS RESTRICTED
+ORION QUANTUM ARCHIVE - ACCESS RESTRICTED
 
-WARNING: Unauthorized access is prohibited
+WARNING: Unauthorized access will collapse the wavefunction
 
-System recovery note: The primary access key was stored in the initial system configuration commit.
+System recovery note: The primary access key is buried in the initial system commit.
+Search for the tag: #QUANTUM_KEY
 
-Search for the tag: #ORION_KEY
+<!-- Hidden clue -->
+SEGMENT_7: 1n_th3_m3t4d4t4_
 
-<!-- This is a system placeholder -->
-SEGMENT_3: th3_next_clue_is_in_
+HINT: The system's visual blueprint holds secrets in its EXIF data

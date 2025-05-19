@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORION SECURITY - Access Denied</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0a0a0a;
+            color: #0f0;
+            text-align: center;
+            padding: 50px;
+            line-height: 1.6;
+        }
+        .system-msg {
+            color: #0a0a0a;
+            user-select: none;
+            font-size: 0.8em;
+            margin: 20px 0;
+        }
+        .terminal {
+            background: #000;
+            border: 1px solid #0f0;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>SECURITY ALERT: ACCESS DENIED</h1>
+    <div class="terminal">
+        <p>> ERROR 404: Resource not found in Orion grid</p>
+        <p>> System diagnostics initiated...</p>
+        <p>> Last access attempt: [REDACTED]</p>
+    </div>
+    
+    <!-- Hidden system diagnostic: Check response headers for X-Orion-Vector -->
+    <div class="system-msg">
+        <p>Vector diagnostic: X-Orion-Vector contains audio directive</p>
+        <p>Segment 4 is hidden in the quantum notation of the audio spectrum</p>
+    </div>
+
+    <script>
+        // Obfuscated system check
+        (function() {
+            const vector = [65, 117, 100, 105, 111, 32, 108, 111, 103, 32, 104, 111, 108, 100, 115, 32, 116, 104, 101, 32, 115, 112, 101, 99, 116, 114, 97, 108, 32, 116, 114, 117, 116, 104];
+            const directive = vector.map(c => String.fromCharCode(c)).join('');
+            console.log(directive); // "Audio log holds the spectral truth"
+            
+            // Red herring: Fake key generation
+            const fakeKey = btoa("ORION-FAKE-KEY-123");
+            console.log("Generated key (decoy): " + fakeKey);
+        })();
+    </script>
+</body>
+</html>

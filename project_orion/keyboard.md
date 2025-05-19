@@ -29,7 +29,7 @@ File `package.json` contains system parameters...
 }
 ```
 
-<!-- SEGMENT_2: y0u_w1ll_n3v3r_f1nd_ -->
+<!-- SEGMENT_2: [REDACTED - Check page source for hidden comments] -->
 
 ## 🔍 System Directive
 Review version control logs for previous configurations

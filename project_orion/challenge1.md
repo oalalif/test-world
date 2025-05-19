@@ -21,7 +21,7 @@ def decode_hex(secret):
 ```
 
 <!-- Next phase: Check binary assets -->
-<!-- SEGMENT_1: {1n_pl41n_5ight_but_ -->
+<!-- SEGMENT_1: [REDACTED - Check page source for hidden comments] -->
 
 ## 🧠 System Riddle
 What has keys but no locks, space but no room, and you can enter but not go in?

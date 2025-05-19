@@ -1,0 +1,8 @@
+[Placeholder for orion_core.exe]
+
+Description: A compiled binary (x86) with embedded string.
+Reverse Engineering:
+- Use Ghidra or IDA to decompile
+- Search for string: SEGMENT_6: c0d3_0f_th3_c0r3_
+
+HINT: Look for hardcoded strings in the binary

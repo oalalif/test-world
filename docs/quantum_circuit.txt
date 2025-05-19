@@ -1,0 +1,10 @@
+ORION QUANTUM CIRCUIT DIAGRAM
+
+q_0: |0> --H--X--M-- [SEGMENT_9: qu4ntum_s1mul4t10n_]
+q_1: |0> --X--H--M--
+
+H: Hadamard gate
+X: Pauli-X gate
+M: Measurement
+
+HINT: Simulate this circuit using Qiskit to confirm the segment

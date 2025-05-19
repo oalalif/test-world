@@ -29,7 +29,7 @@ File `package.json` contains system parameters...
 }
 ```
 
-<!-- SEGMENT_2: but_h1dd3n_w3ll_ -->
+<!-- The second segment is well hidden in the binary data, where only the persistent will find it -->
 
 ## 🔍 Quantum Directive
 The third segment lies in the commit tagged #QUANTUM_KEY

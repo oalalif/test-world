@@ -21,7 +21,7 @@ def decode_hex(secret):
 ```
 
 <!-- Next phase: Proceed to keyboard module -->
-<!-- SEGMENT_1: 1n_pl41n_s1ght_ -->
+<!-- The first segment is hidden in plain sight, where words become numbers -->
 
 ## 🧠 Quantum Riddle
 What has keys but no locks, space but no room, and you can enter but not go in?

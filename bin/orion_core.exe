@@ -3,6 +3,6 @@
 Description: A compiled binary (x86) with embedded string.
 Reverse Engineering:
 - Use Ghidra or IDA to decompile
-- Search for string: SEGMENT_6: c0d3_0f_th3_c0r3_
+- Search for hidden strings in the binary
 
-HINT: Look for hardcoded strings in the binary
+HINT: The sixth segment is embedded in the binary's core, where only reverse engineering can reveal it
